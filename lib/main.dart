@@ -36,12 +36,12 @@ class _QuizPageState extends State<QuizPage> {
           type: AlertType.success,
           context: context,
           title: 'Finished',
-          desc: 'You have successfully completed the quiz to reset is press ',
+          desc: 'You have successfully completed the quiz ,To reset press ',
           buttons: [
             DialogButton(
               width: 120,
               child: const Text(
-                "COOL",
+                "RESET",
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
               onPressed: () => Navigator.pop(context),
